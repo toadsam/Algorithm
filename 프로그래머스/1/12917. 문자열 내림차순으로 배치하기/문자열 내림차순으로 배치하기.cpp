@@ -5,6 +5,7 @@ using namespace std;
 
 string solution(string s) {
     string answer = "";
-    sort(s.begin(),s.end(),greater<char>());
+    sort(s.begin(), s.end()); 
+    reverse(s.begin(), s.end());
     return s;
 }
